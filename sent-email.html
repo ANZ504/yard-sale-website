@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yard Sale: Create a new password</title>
 
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/image/YardSale_Logos/favicon_yard_sale.svg">
     <!-- Links CSS -->
     <link rel="stylesheet" href="/styles/index-style.css">
 </head>
@@ -15,20 +17,19 @@
             <!-- Logo -->
             <img src="./assets/image/YardSale_Logos/logo_yard_sale.svg" alt="logo" class="logo">
             <!-- Title -->
-            <h1 class="title">Create a new password</h1>
+            <h1 class="title">Email has been sent!</h1>
             <!-- Subtitle -->
             <p class="subtitle">
-                Enter a new password for you account
+                Please check your inbox for instructions on how to reset the password
             </p>
+            <div class="container-icon">
+                <img src="./assets/image/YardSale_Icons/email.svg" class="icon-email" alt="icon-email">
+            </div>
             <form action="/" class="form">
-                <!-- Enter a new password -->
-                <label for="password" class="label">Password</label>
-                <input type="password"  id="password" placeholder="**********" class="input input-password">
-                <label for="new-password" class="label">Re-enter Password</label>
-                <input type="password" id="new-password" placeholder="**********" class="input input-password">
                 <!-- Submit -->
-                <input type="submit" value="Confirm new password" class="primary-button login-button">
+                <input type="submit" value="Login" class="primary-button login-button">
             </form>
+                <p class="resend-email">Didn’t receive the email? <span><a  href="#">Resend</a></span></p>
         </div>
     </div>
 </body>

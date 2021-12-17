@@ -105,3 +105,29 @@ Create a new password
     display: block;
   }
 }
+/* 
+Sent Email 
+*/
+.container-icon{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: var(--text-input-field);
+  display: grid;
+  place-items: center;
+  justify-self: center;
+}
+.icon-email{
+  width: 90px;
+  height: 58px; 
+}
+.resend-email{
+  text-align: center;
+  color: var(--very-ligth-pink);
+  font-size: var(--sm);
+}
+.resend-email a{
+  color: var(--hospital-green);
+  text-decoration: none;
+}
+
