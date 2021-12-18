@@ -1,0 +1,6 @@
+.form a{
+    color: var(--hospital-green);
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 52px;
+  }

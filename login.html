@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yard Sale: Create a new password</title>
+
+    <!-- Links CSS -->
+    <link rel="stylesheet" href="/styles/login-style.css" />
+    <link rel="stylesheet" href="/styles/utilidades.css" />
+    <link rel="stylesheet" href="/styles/media-queries.css">
+</head>
+
+<body>
+    <div class="login">
+        <div class="form-container">
+            <!-- Logo -->
+            <img src="./assets/image/YardSale_Logos/logo_yard_sale.svg" alt="logo" class="logo" />
+            <form action="/" class="form">
+                <!-- Enter a new password -->
+                <label for="email" class="label">E-mail</label>
+                <input type="email" id="email" placeholder="example@email.com" class="input input-password" autocomplete="email" required />
+                <label for="password" class="label">Password</label>
+                <input type="password" id="password" placeholder="**********" class="input input-password" autocomplete="current-password" required />
+                <!-- Submit -->
+                <input type="submit" value="Log in" class="primary-button login-button" />
+                <a href="#">forgot my password</a>
+            </form>
+
+            <div class="sign-up">
+                <button class="secondary-button sing-up-btn" href="#">Sing Up</button>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

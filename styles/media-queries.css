@@ -1,0 +1,11 @@
+/*Responsive 640px*/
+@media (max-width: 640px) {
+    .logo{
+      display: block;
+    }
+    .sing-up-btn{
+      position: relative;
+      top: 65px;
+    }
+    
+  }
