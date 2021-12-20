@@ -1,0 +1,14 @@
+.title{
+    font-size: var(--lg);
+    margin: 12px 0 36px 0;
+    text-align: start;
+}
+.input-name,
+.input-email,
+.input-password {
+  margin-bottom: 22px;
+}
+.form div{
+    display: flex;
+    flex-direction: column;
+}

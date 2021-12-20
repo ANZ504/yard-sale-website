@@ -57,6 +57,7 @@ Create a new password
   font-size: var(--lg);
   margin-bottom: 12px;
   text-align: center;
+  color: var(--black);
 }
 .subtitle{
   color: var(--black);
@@ -75,7 +76,7 @@ Create a new password
   margin-bottom: 10px;
 }
 .input{
-  height: 32px;
+  height: 42px;
   font-size: var(--md);
   background-color: var(--text-input-field);
   margin-bottom: 12px;
