@@ -25,5 +25,15 @@
       width: 140px;
       height: 140px;
   }
+  /* Menu desktop */
+  .desktop-menu{
+    display: none;
+  }
     
+  }
+  @media (min-width: 640px) {
+
+    .mobile-menu{
+      display: none;
+    }
   }

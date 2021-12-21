@@ -15,8 +15,12 @@ figure {
   margin: 0;
 }
 ul[role='list'],
-ol[role='list'] {
+ol[role='list'],
+li {
   list-style: none;
+}
+a{
+  text-decoration: none;
 }
 :root{
     --very-ligth-pink: #C7C7C7;
