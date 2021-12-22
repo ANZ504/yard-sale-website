@@ -14,10 +14,11 @@ p,
 figure {
   margin: 0;
 }
-ul[role='list'],
-ol[role='list'],
+ul,
+ol,
 li {
   list-style: none;
+  padding: 0;
 }
 a{
   text-decoration: none;
